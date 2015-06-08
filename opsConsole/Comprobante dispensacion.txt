@@ -1,0 +1,37 @@
+﻿Comprobante dispensacion
+------------------------
+Para imprimir comprobante de dispensacion, la definicion de campos disponibles es:
+
+campo						tipo				observacion
+-----------------------------------------------------------
+fecha_compacta				general
+fecha_glosa					general
+hora_12						general
+hora_24						general
+ano_numero					general
+mes_numero					general
+mes_texto					general
+dia_numero					general
+titulo						general
+centro						general
+fecha_proximo_retiro		general
+glosa_sin_fecha				general
+nombre_paciente				general
+rut_paciente				general
+prescripcion				detalle
+cantidad					detalle
+indicacion					detalle
+
+Las plantillas que debe definirse son:
+
+headerTemplate
+--------------
+Contiene el encabezado. Es obligatoria.
+
+bodyTemplate
+--------------
+Contiene la definicion de detalle. Es opcional.
+
+footerTemplate
+--------------
+Contiene la definicion del pie de pagina. Es opcional.
